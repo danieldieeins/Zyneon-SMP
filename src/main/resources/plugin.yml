@@ -1,0 +1,27 @@
+name: ZyneonSMP
+version: '${project.version}'
+main: com.zyneonstudios.nerotvlive.smp.SMP
+api-version: 1.19
+prefix: ZSMP
+author: nerotvlive
+authors: [ nerotvlive ]
+description: Base plugin for the ZyneonSMP
+website: https://www.zyneonstudios.com
+
+depend:
+  - ZyneonAPI
+
+commands:
+  build:
+  enderchest:
+    aliases: [ec,echest,enderc,et,endertruhe,etruhe,endert]
+  gamemode:
+    aliases: [gm]
+  guide:
+  maintenance:
+  teleport:
+    aliases: [tp]
+  waystone:
+  world:
+  autoclose:
+  redstone:
